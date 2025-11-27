@@ -4,8 +4,9 @@
 - create ComboPooledDataSource bean for connection pool 
 - create bean of LocalContainerEntityManagerFactoryBean to create EntityManagerFactory obj based on :
         - given Datasource , hibernate properties , package to scan Entities , JpaVendorAdaptor
--  create EntityManager obj from EntityManagerFactory obj
+- create EntityManager obj from EntityManagerFactory obj
 - use EntityManager obj to apply CRUD operations
+- create bean of TransactionManager & use @Transactional annotation to let spring mange transactions
 
 
 ### Prerequisites
