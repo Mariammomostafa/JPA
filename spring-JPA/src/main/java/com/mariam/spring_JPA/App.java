@@ -1,10 +1,10 @@
-package com.mariam.spring_JPA_hibernate;
+package com.mariam.spring_JPA;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-import com.mariam.spring_JPA_hibernate.config.AppConfig;
-import com.mariam.spring_JPA_hibernate.entity.Student;
-import com.mariam.spring_JPA_hibernate.repository.StudentDaoImpl;
+import com.mariam.spring_JPA.config.AppConfig;
+import com.mariam.spring_JPA.entity.Student;
+import com.mariam.spring_JPA.repository.StudentDaoImpl;
 
 
 public class App {

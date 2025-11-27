@@ -1,4 +1,4 @@
-package com.mariam.spring_JPA_hibernate.entity;
+package com.mariam.spring_JPA.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

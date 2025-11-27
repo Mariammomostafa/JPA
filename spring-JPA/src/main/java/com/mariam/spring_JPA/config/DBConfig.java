@@ -1,4 +1,4 @@
-package com.mariam.spring_JPA_hibernate.config;
+package com.mariam.spring_JPA.config;
 
 
 import org.springframework.context.annotation.Bean;

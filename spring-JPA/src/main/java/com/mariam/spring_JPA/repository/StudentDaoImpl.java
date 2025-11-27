@@ -1,11 +1,11 @@
-package com.mariam.spring_JPA_hibernate.repository;
+package com.mariam.spring_JPA.repository;
 
 import java.util.List;
 
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.mariam.spring_JPA_hibernate.entity.Student;
+import com.mariam.spring_JPA.entity.Student;
 
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
